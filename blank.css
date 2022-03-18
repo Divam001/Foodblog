@@ -1,0 +1,290 @@
+html{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1020px){
+    html{
+        background-image:url("https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMHVzfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+        height:100vh;
+        background-size:cover;
+        position:reltive;
+      }
+    *{
+      margin:0;
+    }
+    
+    ul li a{
+      text-decoration:none;
+      color:white;
+      }
+    
+    ul{
+      list-style:none;
+    }
+    
+    ul{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-evenly;
+      text-transform:uppercase;
+      font-weight:900;
+      font-size:20px;
+      padding:10px;
+      padding:17px;
+    }
+    
+    .head{
+      background:#470036;
+      height:8vh;
+    }
+    
+    li:hover{
+      transform: scale(1.1,1.1);
+      border-bottom:3px solid #ffdb37;
+      border-right:3px solid #ffdb37;
+      border-left:3px solid #ffdb37;
+      border-top:3px solid #ffdb37;
+      transition-duration: 0.5s;
+    }
+    
+    a:hover{
+      color:#ffdb37;
+    }
+    
+    .form{
+      background:#555;
+      opacity:.75;
+      margin-left:150px;
+      margin-right:150px;
+    }
+    
+    #us{
+      color:#fff;
+      font-size:60px;
+      margin-top:150px;
+      margin-left:400px;
+    }
+    
+    #n{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #name{
+      margin-left:20px;
+      height:40px;
+      width:250px;
+      font-size:20px;
+      margin-left:140px
+    }
+    
+    #m{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #mail{
+      margin-top:50px;
+      height:40px;
+      width:350px;
+      font-size:20px;
+      margin-left:125px;
+    }
+    
+    #nu{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #number{
+      margin-top:50px;
+      height:40px;
+      width:300px;
+      font-size:20px;
+      margin-left:20px;
+    }
+    
+    #me{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #message{
+      margin-top:50px;
+      height:40px;
+      width:400px;
+      height:40px;
+      width:300px;
+      font-size:15px;
+      margin-left:105px;
+    }
+    
+    #submit{
+      height:40px;
+      width:80px;
+      font-size:20px;
+      font-weight:bold;
+      color:white;
+      background:gray;
+      border-radius:10px;
+      margin-left:900px;
+      margin-top:15px;
+    }
+    
+    #contact{
+      border-bottom:3px solid #fff;
+    }
+    
+    #contact:hover{
+      border-bottom:3px solid yellow;
+    }
+}
+
+
+@media (orientation: portrait) {
+    
+    *{
+      margin:0;
+    }
+
+    html{
+        background-image:url("https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMHVzfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+        height:107vh;
+        background-size:cover;
+        position:reltive;
+      }
+    
+    ul li a{
+      text-decoration:none;
+      color:white;
+      padding: 20px;
+      margin-top: 20px;
+      }
+    
+    ul{
+      list-style:none;
+    }
+    
+    ul{
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction: row;
+      justify-content:space-evenly;
+      text-transform:uppercase;
+      font-weight:900;
+      font-size:30px;
+    }
+    
+    .head{
+      background:#470036;
+      width: 1020px;
+      padding: 55px;
+    }
+    
+    .form{
+      background:#555;
+      opacity:.75;
+      padding: 100px;
+      margin-top: 200px;
+      width: 930px;
+    }
+    
+    #us{
+      color:#fff;
+      font-size:60px;
+      margin-top:150px;
+      margin-left:400px;
+    }
+    
+    #n{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #name{
+      margin-left:20px;
+      height:40px;
+      width:250px;
+      font-size:20px;
+      margin-left:140px
+    }
+    
+    #m{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #mail{
+      margin-top:50px;
+      height:40px;
+      width:350px;
+      font-size:20px;
+      margin-left:125px;
+    }
+    
+    #nu{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #number{
+      margin-top:50px;
+      height:40px;
+      width:300px;
+      font-size:20px;
+      margin-left:20px;
+    }
+    
+    #me{
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+      margin-left:250px;
+    }
+    
+    #message{
+      margin-top:50px;
+      height:40px;
+      width:400px;
+      height:40px;
+      width:300px;
+      font-size:15px;
+      margin-left:105px;
+    }
+    
+    #submit{
+      height:40px;
+      width:80px;
+      font-size:20px;
+      font-weight:bold;
+      color:white;
+      background:gray;
+      border-radius:10px;
+      margin-left:900px;
+      margin-top:15px;
+    }
+    
+    #contact{
+      border-bottom:3px solid #fff;
+    }
+    
+    #contact:hover{
+      border-bottom:3px solid yellow;
+    }
+}

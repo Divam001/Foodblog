@@ -1,0 +1,560 @@
+*{
+    margin:0;
+  }
+html {
+    scroll-behavior: smooth;
+  }
+  html{
+    background:url("https://media.istockphoto.com/photos/blank-front-real-black-chalkboard-background-texture-in-college-for-picture-id1201544779?k=6&m=1201544779&s=170667a&w=0&h=exaRqcebc7F2xFC1dWA28RD8PmVEkvMVczpgQ6cg5aY=");
+  }
+  
+  @media (min-width: 1020px){
+    ul li a{
+    text-decoration:none;
+    color:white;
+  }
+  
+  ul{
+    list-style:none;
+  }
+  
+  ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    text-transform:uppercase;
+    font-weight:900;
+    font-size:20px;
+    padding:10px;
+    padding:17px;
+  }
+  
+  .head{
+    background:#470036;
+    height:8vh;
+  }
+  
+  li:hover{
+    transform: scale(1.1,1.1);
+    border-bottom:3px solid #ffdb37;
+    border-right:3px solid #ffdb37;
+    border-left:3px solid #ffdb37;
+    border-top:3px solid #ffdb37;
+    transition-duration: 0.5s;
+  }
+  
+  a:hover{
+    color:#ffdb37;
+  }
+  
+  .bg-image{
+    background-image: url("https://i1.wp.com/www.gastrostoria.com/wp-content/uploads/2019/01/K3A5136_1.jpg?resize=1100%2C729");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size:20px;
+  }
+  
+  .videos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  }
+  
+  .videos iframe{
+    border-radius:20px;
+    margin-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  .videos iframe:hover{
+    border-bottom:4px solid yellow;
+    border-right:4px solid yellow;
+    border-left:4px solid yellow;
+    border-top:4px solid yellow;
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+  }
+  
+  #indian{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:40px;
+    margin-left:80px;
+    margin-top:200px;
+  }
+  
+  #indian:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+  
+  #explore:hover{
+    border-bottom:3px solid yellow;
+  }
+  
+  
+  #food{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:40px;
+    margin-left:80px;
+    margin-top:300px;
+  }
+  
+  #food:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+  #contact 
+  {
+    text-align: center;
+    background: radial-gradient(#470036,#77035b);
+    color: #fff;
+    border-radius:10px;
+    margin-top:200px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-top:2px solid yellow;
+  }
+  
+  .contact-icon {
+    width: 2rem;
+    padding: 1rem;
+    color:#fff;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #connect
+  {
+    color: white;
+    font-size: 200%;
+    padding:50px;
+  }
+  
+  #find
+  {
+    font-size: 200%;
+  }
+
+  #made{
+    font-size: 17px;
+    color:#f1f1f1;
+    margin-bottom: 20px;
+  }
+  }
+  
+  @media (orientation: landscape){
+    ul li a{
+    text-decoration:none;
+    color:white;
+    }
+  
+  ul{
+    list-style:none;
+  }
+  
+  ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    text-transform:uppercase;
+    font-weight:900;
+    font-size:17px;
+    padding:10px;
+    padding:17px;
+  }
+  
+  .head{
+    background:#470036;
+  }
+  
+  li:hover{
+    transform: scale(1.1,1.1);
+    border-bottom:3px solid #ffdb37;
+    border-right:3px solid #ffdb37;
+    border-left:3px solid #ffdb37;
+    border-top:3px solid #ffdb37;
+    transition-duration: 0.5s;
+  }
+  
+  a:hover{
+    color:#ffdb37;
+  }
+  
+  
+  .bg-image{
+    background-image: url("https://i1.wp.com/www.gastrostoria.com/wp-content/uploads/2019/01/K3A5136_1.jpg?resize=1100%2C729");
+    margin-top: 40;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size:17px;
+  }
+  
+  .videos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  }
+
+  #made{
+    font-size: 17px;
+    color:#f1f1f1;
+    margin-bottom: 20px;
+  }
+  
+  .videos iframe{
+    border-radius:20px;
+    margin-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  .videos iframe:hover{
+    border-bottom:4px solid yellow;
+    border-right:4px solid yellow;
+    border-left:4px solid yellow;
+    border-top:4px solid yellow;
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+  }
+  
+  #indian{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:35px;
+    margin-left:80px;
+    margin-top:200px;
+  }
+  
+  #indian:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+  
+  #explore:hover{
+    border-bottom:3px solid yellow;
+  }
+  
+  
+  #food{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:35px;
+    margin-left:80px;
+    margin-top:300px;
+  }
+  
+  #food:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+
+  #contact 
+  {
+    text-align: center;
+    background: radial-gradient(#470036,#77035b);
+    color: #fff;
+    border-radius:10px;
+    margin-top:200px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-top:2px solid yellow;
+    font-size: 10px;
+  }
+  
+  .contact-icon {
+    width: 2rem;
+    padding: 1rem;
+    color:#fff;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #connect
+  {
+    color: white;
+    font-size: 200%;
+    padding:50px;
+  }
+  
+  #find
+  {
+    font-size: 25px;
+  }
+  }
+  
+  @media (orientation: portrait){
+    ul li a{
+    text-decoration:none;
+    color:white;
+  }
+  
+  #explore{
+    border-bottom: 4px solid #f1f1f1;
+  }
+
+  ul{
+    list-style:none;
+  }
+  #made{
+    font-size: 17px;
+    color:#f1f1f1;
+    margin-bottom: 20px;
+  }
+
+  ul a{
+    padding: 20px;
+  }
+  
+  ul{
+    display:flex;
+    flex-direction: row;
+    text-transform:uppercase;
+    font-size:30px;
+  }
+  
+  .head{
+    background:#470036;
+    padding: 40px;
+  }
+  
+  a:hover{
+    color:#ffdb37;
+  }
+  
+  .bg-image{
+    background-image: url("https://i1.wp.com/www.gastrostoria.com/wp-content/uploads/2019/01/K3A5136_1.jpg?resize=1100%2C729");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size:23px;
+    margin-top: -600px;
+  }
+  
+  .videos{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
+  }
+  
+  .videos iframe{
+    border-radius:20px;
+    margin-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  .videos iframe:hover{
+    border-bottom:4px solid yellow;
+    border-right:4px solid yellow;
+    border-left:4px solid yellow;
+    border-top:4px solid yellow;
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+  }
+  
+  #indian{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:50px;
+    margin-left:320px;
+    margin-top:200px;
+    margin-bottom: 100px;
+  }
+  
+  #indian:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+  
+  #explore:hover{
+    border-bottom:3px solid yellow;
+  }
+  
+  
+  #food{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:50px;
+    margin-left:300px;
+    margin-top:300px;
+    margin-bottom: 100px;
+  }
+  
+  #food:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+
+  #foods{
+    color:yellow;
+    text-transform:uppercase;
+    font-size:50px;
+    margin-left:250px;
+    margin-top:300px;
+    margin-bottom: 100px;
+  }
+  
+  #foods:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+    color:yellow;
+  }
+
+  html{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #contact 
+  {
+    text-align: center;
+    background: radial-gradient(#470036,#77035b);
+    color: #fff;
+    border-radius:10px;
+    margin-top:200px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-top:2px solid yellow;
+    font-size: 10px;
+  }
+  
+  .contact-icon {
+    width: 4rem;
+    padding: 2rem;
+    color:#fff;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+  }
+  
+  #connect
+  {
+    color: white;
+    font-size: 30px;;
+    padding:50px;
+  }
+  
+  #find
+  {
+    font-size: 45px;
+  }
+  }

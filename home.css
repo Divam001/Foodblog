@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    color: #de9003;
+  }
+  html{
+    background:url("https://media.istockphoto.com/photos/blank-front-real-black-chalkboard-background-texture-in-college-for-picture-id1201544779?k=6&m=1201544779&s=170667a&w=0&h=exaRqcebc7F2xFC1dWA28RD8PmVEkvMVczpgQ6cg5aY=");
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .top{
+    margin-top:250px;
+    margin-left:300px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a:hover{
+    color:#ffdb37;
+  }
+  
+  .main-nav{
+    margin-top: 5px;
+  }
+  
+  .main-nav a {
+      padding: 10px 15px;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #011640;
+    text-decoration: none;
+  }
+  
+  .main-nav a {
+      color: #f8f8f8;
+      font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .header {
+      padding-top: .5em;
+      border: 1px solid #a2a2a2;
+      background-color: #470036;
+      box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  }
+  
+  @media (orientation: portrait){
+    * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #home{
+    border-bottom: 4px solid #f1f1f1;
+  }
+
+  #home{
+    border-bottom: 3px solid #f1f1f1;
+  }
+
+  .main-nav a {
+      color: #f8f8f8;
+      font-size: 20px;
+    font-weight: 800;
+  }
+      
+  .header,
+  .main-nav 
+    {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .main-nav a {
+        color: #f8f8f8;
+        font-size: 35px;
+        font-weight: 800;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .logo{
+    background-image: url("https://images.unsplash.com/photo-1558163260-0200547a99ad?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    
+    height:550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo-text {
+    margin-top:-550px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size:28px;
+    }
+.more{
+    margin-top:50px;
+    margin-left:100px;
+  }
+  
+#more{
+    color:gold;
+    font-weight:bold;
+    font-size:40px;
+  }
+    
+.cards {
+    margin-top:40px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(280px,300px));
+    align-content: center;
+    justify-content: center;
+    opacity:.90;
+  }
+  
+  .card1 {
+    box-shadow: -10px 15px 5px rgba(0, 0, 0, 1);
+    padding-top: 17.5px;
+    padding-bottom: 10px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    border-radius: 14px;
+    margin: 6px;
+    background-color:#470036;
+    height: 350px;
+    width: 350px;
+    }
+  
+  .card1 img {
+    width: 250px;
+    height: 260px;
+    margin-top: 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .card1 img:hover {
+    transform: scale(1.12)
+  }
+    
+    .card2 {
+        box-shadow: -10px 15px 5px rgba(0, 0, 0, 1);
+        padding-top: 17.5px;
+        padding-bottom: 10px;
+        padding-left: 26.5px;
+        padding-right: 26.5px;
+        border-radius: 14px;
+        margin: 6px;
+        background-color:#470036;
+        height: 350px;
+        width: 350px;
+    }
+  
+  .card2 img {
+    width: 250px;
+    height: 260px;
+    margin-top: 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .card2 img:hover {
+    transform: scale(1.12)
+  }
+    .card3 {
+        box-shadow: -10px 15px 5px rgba(0, 0, 0, 1);
+        padding-top: 17.5px;
+        padding-bottom: 10px;
+        padding-left: 26.5px;
+        padding-right: 26.5px;
+        border-radius: 14px;
+        margin: 6px;
+        background-color:#470036;
+        height: 350px;
+        width: 250px;
+    }
+  
+  .card3 img {
+    width: 250px;
+    height: 260px;
+    margin-top: 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .card3 img:hover {
+    transform: scale(1.12)
+  }
+  
+  #name{
+    color:#de9003;
+    align-content:center;
+    font-size: 30px;
+    margin-top: 15px;
+  }
+    
+.us-image{
+    background-image: url("https://static01.nyt.com/images/2019/05/22/dining/16Eric1/merlin_154816902_3392dddb-fc49-445f-a736-59164056fd78-superJumbo.jpg");
+    height:70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
+.us-text{
+      margin-top: -1350px;
+      font-size: 13px;
+      color: #de9003;
+      text-align: center;
+    }
+    
+.about{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      margin-left: 350px;
+    }
+    
+#about{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+#contact 
+  {
+    text-align: center;
+    background: radial-gradient(#470036,#77035b);
+    color: #fff;
+    border-radius:10px;
+    margin-top:200px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-top:2px solid yellow;
+    font-size: 10px;
+  }
+  
+  .contact-icon {
+    width: 4rem;
+    padding: 2rem;
+    color:#fff;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+  }
+  
+  #connect
+  {
+    color: white;
+    font-size: 30px;;
+    padding:50px;
+  }
+  #made{
+    font-size: 17px;
+    color:#f1f1f1;
+    margin-bottom: 20px;
+  }
+  
+  #find
+  {
+    font-size: 45px;
+  }
+  }
+  
+  @media (orientation: landscape){
+    
+    * {
+    margin: 0;
+    padding: 0;
+  }
+    
+.more{
+    margin-top:50px;
+    margin-left:50px;
+  }
+  
+  #more{
+    color:gold;
+    font-weight:bold;
+    font-size:35px;
+  }
+  
+  #more:hover{
+    color:#de9003;
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+  }
+  
+  #name{
+    color:#de9003;
+    align-content:center;
+  }
+  
+  #heading:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+  }
+  
+  .cards {
+    margin-top:40px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,310px));
+    align-content: center;
+    justify-content: center;
+    opacity:.90;
+  }
+  
+  .card1 {
+    box-shadow: -10px 15px 5px rgba(0, 0, 0, 1);
+    
+    padding-top: 17.5px;
+    padding-bottom: 10px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    border-radius: 14px;
+    margin: 6px;
+    background-color:#470036;
+    }
+  
+  .card1 img {
+    width:100%;
+    height:225px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .card1 img:hover {
+    transform: scale(1.12)
+  }
+    
+    .card2 {
+    box-shadow: -10px 15px 5px rgba(0, 0, 0, 1);
+    
+    padding-top: 17.5px;
+    padding-bottom: 10px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    border-radius: 14px;
+    margin: 6px;
+    background-color:#470036;
+    }
+  
+  .card2 img {
+    width:100%;
+    height:225px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .card2 img:hover {
+    transform: scale(1.12)
+  }
+    .card3 {
+    box-shadow: -10px 15px 5px rgba(0, 0, 0, 1);
+    
+    padding-top: 17.5px;
+    padding-bottom: 10px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    border-radius: 14px;
+    margin: 6px;
+    background-color:#470036;
+    }
+  
+  .card3 img {
+    width:100%;
+    height:225px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .card3 img:hover {
+    transform: scale(1.12)
+  }
+      
+  .header,
+  .main-nav 
+    {
+          display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      }
+    
+    .logo{
+    background-image: url("https://images.unsplash.com/photo-1558163260-0200547a99ad?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    
+    height:360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size:20px;
+    }
+    
+    li {
+    list-style: none;
+  }
+  
+  a {
+    color: #011640;
+    text-decoration: none;
+  }
+    
+    li:hover{
+    transform: scale(1.1,1.1);
+    border-bottom:3px solid #ffdb37;
+    border-right:3px solid #ffdb37;
+    border-left:3px solid #ffdb37;
+    border-top:3px solid #ffdb37;
+    transition-duration: 0.5s;
+  }
+  
+  a:hover{
+    color:#ffdb37;
+    }
+    html{
+    background:url("https://media.istockphoto.com/photos/blank-front-real-black-chalkboard-background-texture-in-college-for-picture-id1201544779?k=6&m=1201544779&s=170667a&w=0&h=exaRqcebc7F2xFC1dWA28RD8PmVEkvMVczpgQ6cg5aY=");
+  }
+    .us-image{
+    background-image: url("https://static01.nyt.com/images/2019/05/22/dining/16Eric1/merlin_154816902_3392dddb-fc49-445f-a736-59164056fd78-superJumbo.jpg");
+    height:420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    .us-text{
+      margin-top: -300px;
+      font-size: 15px;
+      color: #de9003;
+      text-align: center;
+    }
+    
+    .about{
+      margin-left: 300px;
+      font-size: 40px;
+      color: #de9003;
+      margin-top: 70px;
+    }
+    #contact 
+  {
+    text-align: center;
+    background: radial-gradient(#470036,#77035b);
+    color: #fff;
+    border-radius:10px;
+    margin-top:200px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-top:2px solid yellow;
+    font-size: 10px;
+  }
+  
+  .contact-icon {
+    width: 2rem;
+    padding: 1rem;
+    color:#fff;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #connect
+  {
+    color: white;
+    font-size: 200%;
+    padding:50px;
+  }
+  #made{
+    font-size: 17px;
+    color:#f1f1f1;
+    margin-bottom: 20px;
+  }
+  
+  #find
+  {
+    font-size: 25px;
+  }
+    .us-image{
+      height: 650px;
+    }
+    }
+  
+  @media (min-width: 1020px){
+    .us-text{
+      font-size: 27px;
+      margin-top: -500px;
+    }
+    .about{
+      margin-left: 550px;
+    }
+    .more{
+      margin-left: 370px;
+    }
+    .logo-text{
+      font-size: 30px;
+    }
+    .logo{
+      height: 450px;
+    }
+    #contact 
+  {
+    text-align: center;
+    background: radial-gradient(#470036,#77035b);
+    color: #fff;
+    border-radius:10px;
+    margin-top:200px;
+    border-bottom:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-top:2px solid yellow;
+  }
+  
+  .contact-icon {
+    width: 2rem;
+    padding: 1rem;
+    color:#fff;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #connect
+  {
+    color: white;
+    font-size: 200%;
+    padding:50px;
+  }
+  
+  #find
+  {
+    font-size: 200%;
+  }
+    .us-image{
+      height: 650px;
+    }
+    #made{
+      font-size: 17px;
+      color:#f1f1f1;
+      margin-bottom: 20px;
+    }
+  }
